@@ -1,0 +1,53 @@
+.zone {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    z-index: 20;
+}
+
+/* Base animation style */
+.slide {
+    opacity: 0;
+    transform: scale(0.9) rotate(0deg);
+    filter: blur(4px);
+    transition: all 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* On hover - reveal with rotation, slide and fade */
+.top-left:hover~.slide-A {
+    transform: translateX(40px) scale(1);
+    opacity: 1;
+    filter: blur(0);
+}
+
+.top-right:hover~.slide-B {
+    transform: translateX(-40px) scale(1);
+    opacity: 1;
+    filter: blur(0);
+}
+
+.bottom-left:hover~.slide-C {
+    transform: translate(40px, -30px) scale(1);
+    opacity: 1;
+    filter: blur(0);
+}
+
+.bottom-right:hover~.slide-D {
+    transform: translate(-40px, -30px) scale(1);
+    opacity: 1;
+    filter: blur(0);
+}
+
+/* Add a floating animation when visible */
+.slide:hover {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
