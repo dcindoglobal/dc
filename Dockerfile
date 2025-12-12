@@ -1,4 +1,3 @@
-# Use official PHP image
 FROM php:8.2-fpm
 
 # Install system dependencies
@@ -22,8 +21,8 @@ WORKDIR /var/www
 # Copy project files
 COPY . .
 
-# Install dependencies
-RUN composer install --no-dev --optimize-autoloader
+# Install PHP dependencies
+RUN composer install --no-interaction --no-dev --optimize-autoloader
 
 # Fix permissions
 RUN mkdir -p storage/framework/{sessions,views,cache} \
@@ -32,5 +31,5 @@ RUN mkdir -p storage/framework/{sessions,views,cache} \
 # Expose port
 EXPOSE 8080
 
-# Start Laravel WITHOUT key generation
+# Start Laravel (no artisan commands during build)
 CMD php artisan serve --host 0.0.0.0 --port 8080
