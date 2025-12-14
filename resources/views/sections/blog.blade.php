@@ -17,19 +17,19 @@
                 'image' => 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=900',
                 'title' => 'Tips for First-Time Home Builders in Gurgaon',
                 'date' => 'September 16, 2025',
-                'link' => 'blog-page2.html'
+                'link' => 'blog-page'
             ],
             [
                 'image' => 'https://images.pexels.com/photos/7944231/pexels-photo-7944231.jpeg?auto=compress&cs=tinysrgb&w=900',
                 'title' => 'Offering Special Discounts for Home Renovation During Navratri',
                 'date' => 'September 16, 2025',
-                'link' => 'blog-page2.html'
+                'link' => 'blog-page'
             ],
             [
                 'image' => 'https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&w=900',
                 'title' => 'Building Renovation vs Rebuilding: Which is More Cost-Effective?',
                 'date' => 'September 16, 2025',
-                'link' => 'blog-page2.html'
+                'link' => 'blog-page'
             ]
         ] as $blog)
         <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 blog-card">
