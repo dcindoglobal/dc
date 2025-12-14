@@ -83,10 +83,10 @@
             <div>
                 <h4 class="text-lg font-bold mb-4">Contact Us</h4>
                 <address class="text-gray-300 not-italic">
-                    123 Business Park, Industrial Area,<br>
-                    New Delhi, India - 110001<br>
-                    <a href="tel:+911234567890" class="hover:text-white">
-                        +91 123 456 7890
+                   BOOTH NO 48,FIRST FLOOR DLF MARKET, SECTOR 11D Faridabad Sector 7 Faridabad ,<br>
+                    Haryana India - 121006<br>
+                    <a href="tel:+919919910405" class="hover:text-white">
+                        +91 99199 10405
                     </a><br>
                     <a href="mailto:info@dcinological.com" class="hover:text-white">
                         info@dcinological.com

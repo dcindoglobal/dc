@@ -362,7 +362,7 @@
                         document.</p>
                     <a href="#" class="inline-flex items-center text-[#0A2540] font-medium">
                         <span>Download PDF</span>
-                        <i data-lucide="download" class="w-4 h-4 ml-2"></i>
+                        {{-- <i data-lucide="download" class="w-4 h-4 ml-2"></i> --}}
                     </a>
                 </div>
 
@@ -375,7 +375,7 @@
                         action.</p>
                     <a href="#" class="inline-flex items-center text-[#0A2540] font-medium">
                         <span>View Portfolio</span>
-                        <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                        {{-- <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i> --}}
                     </a>
                 </div>
 
@@ -388,7 +388,7 @@
                     </p>
                     <a href="#" class="inline-flex items-center text-[#0A2540] font-medium">
                         <span>Contact Us</span>
-                        <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                        {{-- <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i> --}}
                     </a>
                 </div>
             </div>

@@ -371,7 +371,7 @@
                                 <i class="fas fa-map-marker-alt text-[#D4AF37] text-xl mt-1"></i>
                                 <div>
                                     <h4 class="font-bold text-lg text-[#0A2540]">Our Address</h4>
-                                    <p class="text-gray-600">123 Business Park, Industrial Area,<br />New Delhi, India - 110001</p>
+                                    <p class="text-gray-600">BOOTH NO 48,FIRST FLOOR DLF MARKET, SECTOR 11D Faridabad Sector 7 Faridabad ,<br />Haryana India, 121006</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-4">
@@ -385,7 +385,7 @@
                                 <i class="fas fa-phone text-[#D4AF37] text-xl mt-1"></i>
                                 <div>
                                     <h4 class="font-bold text-lg text-[#0A2540]">Call Us</h4>
-                                    <a href="tel:+911234567890" class="text-gray-600 hover:text-[#D4AF37]">+91 123 456 7890</a>
+                                    <a href="tel:+919919910405" class="text-gray-600 hover:text-[#D4AF37]">+91 99199 10405</a>
                                 </div>
                             </div>
                         </div>
