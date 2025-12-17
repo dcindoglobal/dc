@@ -308,27 +308,7 @@
    
 
 
-    <!-- SCRIPT -->
-    <script>
-        const openModalBtn = document.getElementById('openModalBtn');
-        const closeModalBtn = document.getElementById('closeModalBtn');
-        const quoteModal = document.getElementById('quoteModal');
-
-        openModalBtn.addEventListener('click', () => {
-            quoteModal.classList.remove('hidden');
-        });
-
-        closeModalBtn.addEventListener('click', () => {
-            quoteModal.classList.add('hidden');
-        });
-
-        // Close when clicking outside modal content
-        quoteModal.addEventListener('click', (e) => {
-            if (e.target === quoteModal) {
-                quoteModal.classList.add('hidden');
-            }
-        });
-    </script>
+   
 
     <!-- <script>
         // Initialize Lucide icons

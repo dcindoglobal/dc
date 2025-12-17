@@ -132,19 +132,17 @@
                     
                     <!-- A - Structural Products -->
                    <div class="absolute top-[180px] left-0 flex items-center slide slide-A">
-    <a href="/products" class="flex items-center group">
-        <div class="w-[130px] h-[130px] bg-[#d4af37] rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-lg border-8 border-[#dbb845] z-10 group-hover:scale-105 transition">
-            A
-        </div>
+                    <a href="/products" class="flex items-center group">
+                        <div class="w-[130px] h-[130px] bg-[#d4af37] rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-lg border-8 border-[#dbb845] z-10 group-hover:scale-105 transition">A</div>
 
-        <div class="bg-[#d4af37] text-white w-[500px] ml-[-110px] py-5 pl-[120px] pr-[80px] rounded-l-full shadow-lg group-hover:bg-[#c9a632] transition">
-            <h3 class="font-bold uppercase text-base">STRUCTURAL PRODUCTS</h3>
-            <p class="text-[13px] leading-tight">
-                Building Strong Foundations: Concrete, steel, and core materials designed to deliver strength, safety, and longevity in every build.
-            </p>
-        </div>
-    </a>
-</div>
+                            <div class="bg-[#d4af37] text-white w-[500px] ml-[-110px] py-5 pl-[120px] pr-[80px] rounded-l-full shadow-lg group-hover:bg-[#c9a632] transition">
+                                <h3 class="font-bold uppercase text-base">STRUCTURAL PRODUCTS</h3>
+                                <p class="text-[13px] leading-tight">
+                                    Building Strong Foundations: Concrete, steel, and core materials designed to deliver strength, safety, and longevity in every build.
+                                </p>
+                            </div>
+                    </a>
+                    </div>
 
                     
                     <!-- B - Lifestyle Products -->
