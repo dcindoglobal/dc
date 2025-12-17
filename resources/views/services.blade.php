@@ -293,7 +293,7 @@
                     <p class="text-gray-300 text-sm mb-4 flex-1">
                       Creative architectural and interior design solutions crafted around the client’s vision. We blend innovation, functionality, and aesthetic excellence to shape spaces that truly stand out.
                     </p>
-                    <a href="#" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
+                    <a href="/contact" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
                         Know More
                     </a>
                 </div>
@@ -312,7 +312,7 @@
                     <p class="text-gray-300 text-sm mb-4 flex-1">
                       End-to-end planning, development, and management of modern commercial and residential spaces. We create thoughtfully designed projects that balance functionality, aesthetics, and long-term value.
                     </p>
-                    <a href="#" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
+                    <a href="/contact" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
                         Know More
                     </a>
                 </div>
@@ -331,7 +331,7 @@
                     <p class="text-gray-300 text-sm mb-4 flex-1">
                       Comprehensive EPC contracting for residential, commercial, and industrial developments. From engineering to execution, we deliver turnkey projects with precision, efficiency, and uncompromised quality.
                     </p>
-                    <a href="#" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
+                    <a href="/contact" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
                         Know More
                     </a>
                 </div>
@@ -350,7 +350,7 @@
                     <p class="text-gray-300 text-sm mb-4 flex-1">
                        Professional property and facility management services that ensure seamless operations, enhanced performance, and long-term asset value for residential, commercial, and industrial spaces.
                     </p>
-                    <a href="#" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
+                    <a href="/contact" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
                         Know More
                     </a>
                 </div>
@@ -369,7 +369,7 @@
                     <p class="text-gray-300 text-sm mb-4 flex-1">
                         Integrated mining operations and logistics support tailored for large-scale industrial projects. We provide dependable solutions that streamline supply, movement, and material handling.
                     </p>
-                    <a href="#" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
+                    <a href="/contact" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
                         Know More
                     </a>
                 </div>

@@ -307,7 +307,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Aggregates</h3>
                     <p class="text-gray-600 mb-4">High-quality crushed stone and sand engineered to give every structure a strong, dependable foundation. Built for consistency, performance, and long-term durability.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -319,7 +319,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Cement</h3>
                     <p class="text-gray-600 mb-4">Premium-grade cement trusted for residential, commercial, and industrial projects. Designed to deliver strength, stability, and lasting value across every application.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -331,7 +331,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Concrete</h3>
                     <p class="text-gray-600 mb-4">Durable, ready-mix concrete crafted for today’s modern infrastructure. Ideal for large-scale developments that demand precision, reliability, and long-term performance.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -343,7 +343,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Steel</h3>
                     <p class="text-gray-600 mb-4">High-strength TMT bars and structural steel solutions that ensure unmatched durability and safety. Built to reinforce everything from homes to heavy-duty industrial frameworks.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -355,7 +355,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Chemicals & Admixtures</h3>
                     <p class="text-gray-600 mb-4">Advanced admixtures that enhance workability, boost strength, and improve the overall performance of concrete. Engineered to deliver superior results in every pour.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -368,7 +368,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Kitchens</h3>
                     <p class="text-gray-600 mb-4">Modern modular kitchens designed with a perfect blend of functionality, elegance, and premium craftsmanship. Built to look stunning—and perform effortlessly.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -380,7 +380,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Vanities</h3>
                     <p class="text-gray-600 mb-4">Stylish, space-saving vanities elevate your bathroom with a touch of sophistication. Crafted for durability, convenience, and timeless appeal.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -392,7 +392,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">LED Panels</h3>
                     <p class="text-gray-600 mb-4">Energy-efficient LED panels that combine sleek design with exceptional brightness. Perfect lighting solutions for homes, workspaces, and commercial interiors.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -404,7 +404,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Wardrobes</h3>
                     <p class="text-gray-600 mb-4">Custom wardrobes crafted with smart storage systems, refined finishes, and a luxurious feel. Designed to keep your spaces organized—and beautiful.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -417,7 +417,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Fly Ash Bricks</h3>
                     <p class="text-gray-600 mb-4">Eco-friendly bricks that help reduce carbon emissions while offering greater strength and efficiency. A smarter choice for sustainable construction.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -429,7 +429,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">AAC Blocks</h3>
                     <p class="text-gray-600 mb-4">Lightweight, sound-insulated, and thermally efficient blocks ideal for modern, sustainable buildings. Designed to deliver comfort, safety, and energy savings.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -441,7 +441,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Green Putty</h3>
                     <p class="text-gray-600 mb-4">Smooth, eco-friendly wall putty that ensures a superior finish while supporting sustainable building practices.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>
@@ -454,7 +454,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Industrial Tapes</h3>
                     <p class="text-gray-600 mb-4">High-performance adhesive tapes built for demanding applications heat resistance, sealing, insulation, and more. Dependable solutions for industrial and electrical use.</p>
-                    <a href="#"
+                    <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
                 </div>

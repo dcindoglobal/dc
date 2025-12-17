@@ -271,137 +271,144 @@
             height: 35px;
             fill: white;
         }
+
+        /* Responsive Google Maps */
+        .map-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (adjust if needed, e.g., 75% for original 600x450) */
+            height: 0;
+            overflow: hidden;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
     </style>
 </head>
 <body class="bg-white">
 
-   
+    @extends('layouts.app')
 
+    @section('title', 'Home - DC Indo Global')
 
-    
-  
-  @extends('layouts.app')
-
-@section('title', 'Home - DC Indo Global')
-
-@section('content')
-
+    @section('content')
 
     <!-- Page Header -->
     <section 
-        class="h-80 bg-cover bg-center flex items-center justify-center text-white"
+        class="h-[50vh] md:h-[60vh] lg:h-80 bg-cover bg-center flex items-center justify-center text-white"
         style="background-image: url('https://images.unsplash.com/photo-1596524430615-b46475ddff6e?w=1920')"
     >
         <div class="bg-black/60 w-full h-full flex items-center justify-center">
-            <h1 class="text-5xl font-bold fade-in-up">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold fade-in-up">
                 Contact Us
             </h1>
         </div>
     </section>
 
     <!-- Contact Form and Info -->
-    <section class="py-24 px-24">
-        <div class="container mx-auto px-4">
-            <div class="grid lg:grid-cols-2 gap-16">
-                <!-- Contact Form -->
-                <div>
-                    <h2 class="text-3xl font-bold text-[#0A2540] mb-2">Get in Touch</h2>
-                    <p class="text-gray-600 mb-8">Fill out the form below and we'll get back to you as soon as possible.</p>
-                    <form id="contactForm" class="space-y-6">
-                        <div class="grid sm:grid-cols-2 gap-6">
-                            <input 
-                                type="text" 
-                                name="name" 
-                                placeholder="Your Name" 
-                                class="input" 
-                                required
-                            />
-                            <input 
-                                type="email" 
-                                name="email" 
-                                placeholder="Your Email" 
-                                class="input" 
-                                required
-                            />
-                        </div>
-                        <div class="grid sm:grid-cols-2 gap-6">
-                            <input 
-                                type="tel" 
-                                name="phone" 
-                                placeholder="Your Phone" 
-                                class="input" 
-                                required
-                            />
-                            <input 
-                                type="text" 
-                                name="company" 
-                                placeholder="Your Company (Optional)" 
-                                class="input" 
-                            />
-                        </div>
-                        <div class="select-wrapper">
-                            <select name="inquiry_type" class="select">
-                                <option value="General Inquiry">General Inquiry</option>
-                                <option value="Project Quote">Project Quote</option>
-                                <option value="Partnership">Partnership</option>
-                                <option value="Career">Career</option>
-                                <option value="Support">Support</option>
-                            </select>
-                        </div>
-                        <textarea 
-                            name="message" 
-                            placeholder="Your Message" 
-                            rows="5" 
-                            class="textarea" 
+    <section class="py-12 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16">
+            <!-- Contact Form -->
+            <div>
+                <h2 class="text-2xl md:text-3xl font-bold text-[#0A2540] mb-2">Get in Touch</h2>
+                <p class="text-gray-600 mb-8">Fill out the form below and we'll get back to you as soon as possible.</p>
+                <form id="contactForm" class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <input 
+                            type="text" 
+                            name="name" 
+                            placeholder="Your Name" 
+                            class="input" 
                             required
-                        ></textarea>
-                        <button type="submit" class="btn btn-primary w-full py-3 text-lg">
-                            <i class="fas fa-paper-plane mr-2"></i>
-                            Send Message
-                        </button>
-                    </form>
-                </div>
-                
-                <!-- Contact Info & Map -->
-                <div class="space-y-8">
-                    <div>
-                        <h2 class="text-3xl font-bold text-[#0A2540] mb-6">Contact Information</h2>
-                        <div class="space-y-4">
-                            <div class="flex items-start gap-4">
-                                <i class="fas fa-map-marker-alt text-[#D4AF37] text-xl mt-1"></i>
-                                <div>
-                                    <h4 class="font-bold text-lg text-[#0A2540]">Our Address</h4>
-                                    <p class="text-gray-600">BOOTH NO 48,FIRST FLOOR DLF MARKET, SECTOR 11D Faridabad Sector 7 Faridabad ,<br />Haryana India, 121006</p>
-                                </div>
+                        />
+                        <input 
+                            type="email" 
+                            name="email" 
+                            placeholder="Your Email" 
+                            class="input" 
+                            required
+                        />
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <input 
+                            type="tel" 
+                            name="phone" 
+                            placeholder="Your Phone" 
+                            class="input" 
+                            required
+                        />
+                        <input 
+                            type="text" 
+                            name="company" 
+                            placeholder="Your Company (Optional)" 
+                            class="input" 
+                        />
+                    </div>
+                    <div class="select-wrapper">
+                        <select name="inquiry_type" class="select">
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Project Quote">Project Quote</option>
+                            <option value="Partnership">Partnership</option>
+                            <option value="Career">Career</option>
+                            <option value="Support">Support</option>
+                        </select>
+                    </div>
+                    <textarea 
+                        name="message" 
+                        placeholder="Your Message" 
+                        rows="5" 
+                        class="textarea" 
+                        required
+                    ></textarea>
+                    <button type="submit" class="btn btn-primary w-full py-3 text-lg">
+                        <i class="fas fa-paper-plane mr-2"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+            
+            <!-- Contact Info & Map -->
+            <div class="space-y-8 lg:space-y-12">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#0A2540] mb-6">Contact Information</h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <i class="fas fa-map-marker-alt text-[#D4AF37] text-xl mt-1 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold text-lg text-[#0A2540]">Our Address</h4>
+                                <p class="text-gray-600">BOOTH NO 48,FIRST FLOOR DLF MARKET, SECTOR 11D Faridabad Sector 7 Faridabad ,<br />Haryana India, 121006</p>
                             </div>
-                            <div class="flex items-start gap-4">
-                                <i class="fas fa-envelope text-[#D4AF37] text-xl mt-1"></i>
-                                <div>
-                                    <h4 class="font-bold text-lg text-[#0A2540]">Email Us</h4>
-                                    <a href="mailto:info@dcindoglobal.com" class="text-gray-600 hover:text-[#D4AF37]">info@dcindoglobal.com</a>
-                                </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i class="fas fa-envelope text-[#D4AF37] text-xl mt-1 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold text-lg text-[#0A2540]">Email Us</h4>
+                                <a href="mailto:info@dcindoglobal.com" class="text-gray-600 hover:text-[#D4AF37]">info@dcindoglobal.com</a>
                             </div>
-                            <div class="flex items-start gap-4">
-                                <i class="fas fa-phone text-[#D4AF37] text-xl mt-1"></i>
-                                <div>
-                                    <h4 class="font-bold text-lg text-[#0A2540]">Call Us</h4>
-                                    <a href="tel:+919919910405" class="text-gray-600 hover:text-[#D4AF37]">+91 99199 10405</a>
-                                </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i class="fas fa-phone text-[#D4AF37] text-xl mt-1 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold text-lg text-[#0A2540]">Call Us</h4>
+                                <a href="tel:+919919910405" class="text-gray-600 hover:text-[#D4AF37]">+91 99199 10405</a>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Map -->
-                    <div class="h-80 rounded-lg overflow-hidden shadow-lg">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.261821422778!2d77.2142313150247!3d28.62192198242183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd3f764a8863%3A0x8e808e64344d37c3!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1620312674390!5m2!1sen!2sin"
-                            width="100%"
-                            height="100%"
-                            style="border: 0;"
-                            allowfullscreen=""
-                            loading="lazy"
-                            title="Google Map of our location"
-                        ></iframe>
+                </div>
+                
+                <!-- Map -->
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3510.541573254789!2d77.31707237527901!3d28.372706175807604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1765955438838!5m2!1sen!2sin" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -416,9 +423,6 @@
             <p id="toast-description" class="text-sm"></p>
         </div>
     </div>
-
-    
-    
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -485,7 +489,7 @@
         });
     </script>
 
-@endsection
+    @endsection
 
 </body>
 </html>

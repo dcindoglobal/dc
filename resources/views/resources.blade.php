@@ -327,7 +327,7 @@
             <div>
                 <label class="flex items-start">
                     <input type="checkbox" class="mt-1 mr-2" required>
-                    <span class="text-gray-700 text-sm">I agree to the <a href="#" class="text-[#0A2540] hover:underline">terms and conditions</a> and understand that my information will be used for vendor evaluation purposes.</span>
+                    <span class="text-gray-700 text-sm">I agree to the <a href="/contact" class="text-[#0A2540] hover:underline">terms and conditions</a> and understand that my information will be used for vendor evaluation purposes.</span>
                 </label>
             </div>
             <button type="submit" class="btn-primary w-full">Submit Registration</button>
@@ -360,7 +360,7 @@
                     <h4 class="text-xl font-bold text-[#0A2540] mb-4">Vendor Guidelines</h4>
                     <p class="text-gray-600 mb-6">Download our comprehensive vendor guidelines and requirements
                         document.</p>
-                    <a href="#" class="inline-flex items-center text-[#0A2540] font-medium">
+                    <a href="/contact" class="inline-flex items-center text-[#0A2540] font-medium">
                         <span>Download PDF</span>
                         {{-- <i data-lucide="download" class="w-4 h-4 ml-2"></i> --}}
                     </a>
@@ -373,7 +373,7 @@
                     <h4 class="text-xl font-bold text-[#0A2540] mb-4">Project Portfolio</h4>
                     <p class="text-gray-600 mb-6">Browse through our completed projects and see our capabilities in
                         action.</p>
-                    <a href="#" class="inline-flex items-center text-[#0A2540] font-medium">
+                    <a href="/contact" class="inline-flex items-center text-[#0A2540] font-medium">
                         <span>View Portfolio</span>
                         {{-- <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i> --}}
                     </a>
@@ -386,7 +386,7 @@
                     <h4 class="text-xl font-bold text-[#0A2540] mb-4">Contact Procurement</h4>
                     <p class="text-gray-600 mb-6">Get in touch with our procurement team for any vendor-related queries.
                     </p>
-                    <a href="#" class="inline-flex items-center text-[#0A2540] font-medium">
+                    <a href="/contact" class="inline-flex items-center text-[#0A2540] font-medium">
                         <span>Contact Us</span>
                         {{-- <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i> --}}
                     </a>
@@ -525,20 +525,22 @@
         lucide.createIcons();
 
         // Client data
-        const clients = [
-            { name: "Infosys", logo: "https://logo.clearbit.com/infosys.com", category: "commercial" },
-            { name: "Tata Group", logo: "https://logo.clearbit.com/tata.com", category: "industrial" },
-            { name: "Reliance Industries", logo: "https://logo.clearbit.com/ril.com", category: "industrial" },
-            { name: "Adani Group", logo: "https://logo.clearbit.com/adani.com", category: "commercial" },
-            { name: "Larsen & Toubro", logo: "https://logo.clearbit.com/larsentoubro.com", category: "industrial" },
-            { name: "Mahindra Group", logo: "https://logo.clearbit.com/mahindra.com", category: "industrial" },
-            { name: "Wipro", logo: "https://logo.clearbit.com/wipro.com", category: "commercial" },
-            { name: "HDFC Bank", logo: "https://logo.clearbit.com/hdfcbank.com", category: "commercial" },
-            { name: "Godrej Group", logo: "https://logo.clearbit.com/godrej.com", category: "residential" },
-            { name: "DLF Limited", logo: "https://logo.clearbit.com/dlf.in", category: "residential" },
-            { name: "Prestige Group", logo: "https://logo.clearbit.com/prestigeconstructions.com", category: "residential" },
-            { name: "Government of India", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/800px-Emblem_of_India.svg.png", category: "government" }
-        ];
+       const clients = [
+    { name: "Infosys", logo: "https://www.google.com/s2/favicons?sz=64&domain=infosys.com", category: "commercial" },
+    { name: "Tata Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=tata.com", category: "industrial" },
+    { name: "Reliance Industries", logo: "https://www.google.com/s2/favicons?sz=64&domain=ril.com", category: "industrial" },
+    { name: "Adani Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=adani.com", category: "commercial" },
+    { name: "Larsen & Toubro", logo: "https://www.google.com/s2/favicons?sz=64&domain=larsentoubro.com", category: "industrial" },
+    { name: "Mahindra Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=mahindra.com", category: "industrial" },
+    { name: "Wipro", logo: "https://www.google.com/s2/favicons?sz=64&domain=wipro.com", category: "commercial" },
+    { name: "HDFC Bank", logo: "https://www.google.com/s2/favicons?sz=64&domain=hdfcbank.com", category: "commercial" },
+    { name: "Godrej Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=godrej.com", category: "residential" },
+    { name: "DLF Limited", logo: "https://www.google.com/s2/favicons?sz=64&domain=dlf.in", category: "residential" },
+    { name: "Prestige Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=prestigeconstructions.com", category: "residential" },
+
+    // Already optimal
+    { name: "Government of India", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/800px-Emblem_of_India.svg.png", category: "government" }
+];
 
         // Testimonials data
         const testimonials = [

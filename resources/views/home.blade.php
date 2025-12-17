@@ -16,14 +16,17 @@
         @include('sections.philosophy-phone')
     </div>
 
-    <div  class="mt-[-146px] md:mt-[1]" >
+    <div class="mt-[40px] md:mt-[-146px]">
+    @include('sections.testimonials')
+</div>
 
-        @include('sections.testimonials')
-    </div>
+
     @include('sections.blog')
-    <div>
 
+    <div>
         @include('sections.history')
     </div>
+
     @include('sections.cta')
+
 @endsection

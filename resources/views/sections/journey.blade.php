@@ -14,37 +14,41 @@
             Over the years, we have grown, innovated, and delivered excellence through dedication and expertise.  </p>
 
         <!-- Stats Grid (Fully Responsive) -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div class="">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
 
-            @foreach([
-                ['count' => 13, 'label' => 'Years of Experience', 'icon' => 'clock'],
-                ['count' => 100, 'label' => 'Projects Completed', 'icon' => 'building'],
-                ['count' => 40, 'label' => 'Strategic Clients', 'icon' => 'users'],
-                ['count' => 50, 'label' => 'Awards & Recognitions', 'icon' => 'award']
-            ] as $stat)
+                    @foreach([
+                        ['count' => 13, 'label' => 'Years of Experience', 'icon' => 'clock'],
+                        ['count' => 70, 'label' => 'Projects Completed', 'icon' => 'building'],
+                        ['count' => 40, 'label' => 'Strategic Clients', 'icon' => 'users']
+                        // ['count' => 50, 'label' => 'Awards & Recognitions', 'icon' => 'award']
+                    ] as $stat)
 
-            <div class="p-6 sm:p-8 text-center bg-white rounded-xl shadow-lg 
-                        hover:shadow-2xl transition-all duration-300 
-                        opacity-0 scale-90 stat-card">
+                    <div class="p-6 sm:p-8 text-center bg-white rounded-xl shadow-lg 
+                                hover:shadow-2xl transition-all duration-300 
+                                opacity-0 scale-90 stat-card">
 
-                <div class="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 
-                            bg-gradient-to-br from-[#0A2540] to-[#1E3A5F] rounded-2xl mb-4">
-                    <i class="fas fa-{{ $stat['icon'] }} text-white text-xl sm:text-2xl"></i>
+                        <div class="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 
+                                    bg-gradient-to-br from-[#0A2540] to-[#1E3A5F] rounded-2xl mb-4">
+                            <i class="fas fa-{{ $stat['icon'] }} text-white text-xl sm:text-2xl"></i>
+                        </div>
+
+                        <h3 class="text-3xl sm:text-4xl font-bold text-[#0A2540] mb-1 counter" data-count="{{ $stat['count'] }}">
+                            0
+                        </h3>
+
+                        <p class="text-gray-600 font-medium text-sm sm:text-base">
+                            {{ $stat['label'] }}
+                        </p>
+
+                    </div>
+
+                    @endforeach
+
                 </div>
 
-                <h3 class="text-3xl sm:text-4xl font-bold text-[#0A2540] mb-1 counter" data-count="{{ $stat['count'] }}">
-                    0
-                </h3>
-
-                <p class="text-gray-600 font-medium text-sm sm:text-base">
-                    {{ $stat['label'] }}
-                </p>
-
-            </div>
-
-            @endforeach
-
         </div>
+      
     </div>
 </section>
 

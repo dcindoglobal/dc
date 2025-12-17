@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     
     <!-- Section Specific CSS -->
     @yield('styles')
