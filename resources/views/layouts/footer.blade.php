@@ -101,11 +101,11 @@
             <p class="text-gray-400 text-sm">
                 © 2024 DC Indo Global Pvt. Ltd. All rights reserved.
             </p>
-            <div class="flex space-x-4">
+            {{-- <div class="flex space-x-4">
                 <a href="#" class="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
                 <a href="#" class="text-gray-400 hover:text-white text-sm">Terms of Service</a>
                 <a href="#" class="text-gray-400 hover:text-white text-sm">Sitemap</a>
-            </div>
+            </div> --}}
         </div>
     </div>
 </footer>
