@@ -15,11 +15,11 @@
                 Let's build something extraordinary together. Contact us for a free consultation.
             </p>
             <div class="flex flex-wrap gap-4 justify-center">
-                <a href="#contact" class="bg-[#D4AF37] hover:bg-[#C4A137] text-white px-6 py-3 font-semibold rounded-lg shadow-2xl inline-flex items-center transition-colors duration-300">
+                <a href="/contact" class="bg-[#D4AF37] hover:bg-[#C4A137] text-white px-6 py-3 font-semibold rounded-lg shadow-2xl inline-flex items-center transition-colors duration-300">
                     GET STARTED TODAY
                     <i class="ml-2 fas fa-arrow-right"></i>
                 </a>
-                <a href="tel:+911234567890" class="border border-white text-white hover:bg-white hover:text-[#0A2540] px-6 py-3 font-semibold rounded-lg inline-flex items-center transition-all duration-300">
+                <a href="tel:+919919910405" class="border border-white text-white hover:bg-white hover:text-[#0A2540] px-6 py-3 font-semibold rounded-lg inline-flex items-center transition-all duration-300">
                     CALL US NOW
                 </a>
             </div>

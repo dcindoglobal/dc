@@ -243,7 +243,7 @@
             <p class="text-lg text-gray-600 mb-8 max-w-xl mx-auto">
                 We're always open to connecting with talented professionals. If you believe you have what it takes to contribute to our team, send us your resume.
             </p>
-            <a href="contact.html">
+            <a href="contact">
                 <button class="bg-[#D4AF37] hover:bg-[#C4A137] text-white px-8 py-4 text-lg font-semibold rounded-lg">
                     CONTACT US
                 </button>
