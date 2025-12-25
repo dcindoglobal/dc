@@ -526,17 +526,17 @@
 
         // Client data
        const clients = [
-    { name: "Infosys", logo: "https://www.google.com/s2/favicons?sz=64&domain=infosys.com", category: "commercial" },
-    { name: "Tata Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=tata.com", category: "industrial" },
-    { name: "Reliance Industries", logo: "https://www.google.com/s2/favicons?sz=64&domain=ril.com", category: "industrial" },
-    { name: "Adani Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=adani.com", category: "commercial" },
-    { name: "Larsen & Toubro", logo: "https://www.google.com/s2/favicons?sz=64&domain=larsentoubro.com", category: "industrial" },
-    { name: "Mahindra Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=mahindra.com", category: "industrial" },
-    { name: "Wipro", logo: "https://www.google.com/s2/favicons?sz=64&domain=wipro.com", category: "commercial" },
-    { name: "HDFC Bank", logo: "https://www.google.com/s2/favicons?sz=64&domain=hdfcbank.com", category: "commercial" },
-    { name: "Godrej Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=godrej.com", category: "residential" },
-    { name: "DLF Limited", logo: "https://www.google.com/s2/favicons?sz=64&domain=dlf.in", category: "residential" },
-    { name: "Prestige Group", logo: "https://www.google.com/s2/favicons?sz=64&domain=prestigeconstructions.com", category: "residential" },
+    { name: "Infosys", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/500px-Infosys_logo.svg.png?20100302211036", category: "commercial" },
+    { name: "Tata Group", logo: "https://zerocreativity0.wordpress.com/wp-content/uploads/2016/04/tata-group-classic-logos-of-india-zero-creativty.jpg?w=736", category: "industrial" },
+    { name: "Reliance Industries", logo: "https://rilstaticasset.akamaized.net/sites/default/files/2023-02/S.1_2.jpg", category: "industrial" },
+    { name: "Adani Group", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adani_2012_logo.png/1200px-Adani_2012_logo.png?20201105054634", category: "commercial" },
+    { name: "Larsen & Toubro", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/L%26T.png?20141228172036", category: "industrial" },
+    { name: "Mahindra Group", logo: "https://emobilityplus.com/wp-content/uploads/2022/07/image-1.png", category: "industrial" },
+    { name: "Wipro", logo: "https://1000logos.net/wp-content/uploads/2020/05/Wipro-logo.jpg", category: "commercial" },
+    { name: "HDFC Bank", logo: "https://static-asset.inc42.com/logo/hdfc-bank.png", category: "commercial" },
+    { name: "Godrej Group", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXEiMpT6uvXFb187unmwCYmXDvU0oDZO1KMw&s", category: "residential" },
+    { name: "DLF Limited", logo: "https://upload.wikimedia.org/wikipedia/commons/a/aa/DLF_logo.svg", category: "residential" },
+    { name: "Prestige Group", logo: "https://companieslogo.com/img/orig/PRESTIGE.NS-e867ba84.png?t=1720244493", category: "residential" },
 
     // Already optimal
     { name: "Government of India", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/800px-Emblem_of_India.svg.png", category: "government" }
