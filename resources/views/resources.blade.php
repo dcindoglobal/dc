@@ -345,7 +345,7 @@
     </section>
 
     <!-- Additional Resources Section -->
-    <section class="py-20">
+    {{-- <section class="py-20">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-sm font-bold text-[#D4AF37] mb-4 tracking-wider">ADDITIONAL RESOURCES</h2>
@@ -362,7 +362,7 @@
                         document.</p>
                     <a href="/contact" class="inline-flex items-center text-[#0A2540] font-medium">
                         <span>Download PDF</span>
-                        {{-- <i data-lucide="download" class="w-4 h-4 ml-2"></i> --}}
+                        <i data-lucide="download" class="w-4 h-4 ml-2"></i>
                     </a>
                 </div>
 
@@ -375,7 +375,7 @@
                         action.</p>
                     <a href="/contact" class="inline-flex items-center text-[#0A2540] font-medium">
                         <span>View Portfolio</span>
-                        {{-- <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i> --}}
+                        <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
                     </a>
                 </div>
 
@@ -388,12 +388,12 @@
                     </p>
                     <a href="/contact" class="inline-flex items-center text-[#0A2540] font-medium">
                         <span>Contact Us</span>
-                        {{-- <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i> --}}
+                        <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
                     </a>
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- Clientele Showcase Section -->
     <section class="py-24">

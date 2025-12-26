@@ -632,7 +632,7 @@
             if (mobileMenuButton) {
                 mobileMenuButton.addEventListener('click', function() {
                     // This would toggle a mobile menu in a real implementation
-                    alert('Mobile menu would open here');
+                    // alert('Mobile menu would open here');
                 });
             }
         });

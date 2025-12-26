@@ -29,7 +29,7 @@
         }
 
         @media (min-width: 1280px) {
-            .philo-wrapper { transform: scale(1); }
+            .philo-wrapper { transform: scale(1.2); }
         }
         @media (max-width: 1279px) and (min-width: 768px) {
             .philo-wrapper { transform: scale(0.85); }
@@ -38,15 +38,15 @@
             .philo-wrapper { transform: scale(0.65); }
         }
         @media (max-width: 499px) {
-            .philo-wrapper { transform: scale(0.55); }
+            .philo-wrapper { transform: scale(1); }
         }
 
         /* VISUAL ZONE INDICATORS (optional - can remove if not needed) */
         .zone-indicator {
             position: absolute;
-            width: 100px;
-            height: 100px;
-            opacity: 0.1;
+            width: 50px;
+            height: 50px;
+            opacity: 0.5;
             pointer-events: none;
             transition: opacity 0.3s;
         }
@@ -120,7 +120,7 @@
                 <a href="/our-strength" class="philo-zone philo-zone-bottom-right bottom-0 right-0"></a>
 
                 <!-- CENTER IMAGE WITH VISUAL INDICATORS -->
-                <div class="center-container" style="margin-bottom: -547px; margin-top: -160px;">
+                <div class="center-container" style="margin-bottom: 0px; margin-top: 0px;">
                     <!-- Zone Visual Indicators -->
                     <div class="zone-indicator zone-indicator-top-left"></div>
                     <div class="zone-indicator zone-indicator-top-right"></div>
