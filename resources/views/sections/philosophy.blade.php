@@ -243,7 +243,7 @@
                 if (zoneClass === 'bottom-left') {
                     url = '/services';
                 } else if (zoneClass === 'bottom-right') {
-                    url = '/resources'; // D connects to /resources
+                    url = '/our-strength'; // D connects to /resources
                 }
                 
                 // Navigate to the URL

@@ -23,3 +23,8 @@ Route::get('/product-page', function () {
 Route::get('/service-page', function () {
     return view('pages.service-page');
 })->name('service.page');
+
+
+Route::get('/our-strength', function () {
+    return view('pages.our-strength');
+})->name('strength.page');
