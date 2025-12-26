@@ -200,7 +200,7 @@
    
 
     <!-- Page Header -->
-    <section class="h-[32rem] bg-cover bg-center flex items-center justify-center text-white"
+    <section class="h-80 md:h-[32rem] bg-cover bg-center flex items-center justify-center text-white"
         style="background-image: url('{{ asset('images/about-header.jpeg') }}')">
         <div class="bg-black/60 w-full h-full flex items-center justify-center">
             <h1 id="page-title" class="text-5xl font-bold fade-in-up">About Us</h1>
