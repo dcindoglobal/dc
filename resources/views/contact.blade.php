@@ -381,7 +381,7 @@
                             <i class="fas fa-map-marker-alt text-[#D4AF37] text-xl mt-1 flex-shrink-0"></i>
                             <div>
                                 <h4 class="font-bold text-lg text-[#0A2540]">Our Address</h4>
-                                <p class="text-gray-600">BOOTH NO 48,FIRST FLOOR DLF MARKET, SECTOR 11D Faridabad Sector 7 Faridabad ,<br />Haryana India, 121006</p>
+                                <p class="text-gray-600">48, DLF MARKET, Sector 11D, Faridabad,<br />Haryana India, 121006</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-4">

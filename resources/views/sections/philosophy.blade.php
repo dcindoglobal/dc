@@ -183,7 +183,7 @@
                             <div class="bg-[#25578f] text-white w-[500px] mr-[-110px] py-3 pr-[120px] pl-[80px] rounded-r-full shadow-lg text-right group-hover:bg-[#1e4675] transition">
                                 <h3 class="font-bold uppercase text-base">Our Services</h3>
                                 <p class="text-[13px] leading-tight">
-                                   Design Meets Functionality: From tiles and bath fittings to modular kitchens and electricals we blend beauty with performance for modern living.
+                                  End-to-End Solutions: From project planning and execution to post-construction support, we deliver comprehensive services tailored to your needs.
                                 </p>
                             </div>
                             <div class="w-[130px] h-[130px] bg-[#25578f] rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-lg border-8 border-[#315b8b] z-10 group-hover:bg-[#1e4675] transition">
