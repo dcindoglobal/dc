@@ -32,10 +32,10 @@
             .philo-wrapper { transform: scale(1.2); }
         }
         @media (max-width: 1279px) and (min-width: 768px) {
-            .philo-wrapper { transform: scale(0.85); }
+            .philo-wrapper { transform: scale(1); }
         }
         @media (max-width: 767px) and (min-width: 500px) {
-            .philo-wrapper { transform: scale(0.65); }
+            .philo-wrapper { transform: scale(1); }
         }
         @media (max-width: 499px) {
             .philo-wrapper { transform: scale(1); }
@@ -46,7 +46,7 @@
             position: absolute;
             width: 50px;
             height: 50px;
-            opacity: 0.5;
+            opacity: 0;
             pointer-events: none;
             transition: opacity 0.3s;
         }

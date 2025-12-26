@@ -212,7 +212,7 @@
         <div class="container mx-auto px-4">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div class="fade-in-left">
-                    <img src=" https://images.pexels.com/photos/443378/pexels-photo-443378.jpeg?w=800"
+                    <img src="{{asset('images/about-us.jpeg') }}"
                         alt="Construction" class="rounded-2xl shadow-2xl w-full floating-animation" />
                 </div>
                 <div class="fade-in-right">

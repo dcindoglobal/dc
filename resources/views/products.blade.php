@@ -350,7 +350,7 @@
             </div>
 
             <div class="product-card-item fade-up-product" data-category="structural">
-                <img src="https://images.pexels.com/photos/6129885/pexels-photo-6129885.jpeg"
+                <img src="{{ asset('images/products/chemical.jpeg') }}"
                     class="w-full h-56 object-cover" alt="Chemicals">
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Chemicals & Admixtures</h3>
@@ -387,7 +387,7 @@
             </div>
 
             <div class="product-card-item fade-up-product" data-category="modular">
-                <img src="https://images.pexels.com/photos/3935347/pexels-photo-3935347.jpeg?auto=compress&cs=tinysrgb&w=900"
+                <img src="{{ asset('images/products/led.jpeg') }}"  
                     class="w-full h-56 object-cover" alt="LED Panels">
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">LED Panels</h3>
@@ -424,7 +424,7 @@
             </div>
 
             <div class="product-card-item fade-up-product" data-category="green">
-                <img src="https://www.sakshichemsciences.com/wp-content/uploads/2025/01/AAC-Blocks.webp"
+                <img src="{{ asset('images/products/aac-blocks.jpeg') }}"
                     class="w-full h-56 object-cover" alt="AAC Blocks">
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">AAC Blocks</h3>

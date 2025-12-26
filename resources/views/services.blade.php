@@ -321,7 +321,7 @@
             <!-- Card 3 -->
             <div class="service-card flex flex-col p-6 rounded-xl overflow-hidden group border border-white/10 bg-gradient-to-br from-[#0A2540] to-[#1E3A5F] backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
                 <div class="image-container w-full h-48 overflow-hidden rounded-xl">
-                    <img src="https://images.pexels.com/photos/8293646/pexels-photo-8293646.jpeg" alt="Construction Services" class="w-full h-full object-cover">
+                    <img src="{{ asset('images/services/EPC.jpeg') }}" alt="Construction Services" class="w-full h-full object-cover">
                 </div>
                 <div class="relative z-10 mt-4 flex flex-col items-start flex-1">
                     <div class="w-16 h-16 bg-[#D4AF37] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -359,7 +359,7 @@
             <!-- Card 5 -->
             <div class="service-card flex flex-col p-6 rounded-xl overflow-hidden group border border-white/10 bg-gradient-to-br from-[#0A2540] to-[#1E3A5F] backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
                 <div class="image-container w-full h-48 overflow-hidden rounded-xl">
-                    <img src="https://images.pexels.com/photos/6169057/pexels-photo-6169057.jpeg" alt="Mining & Logistics" class="w-full h-full object-cover">
+                    <img src="{{ asset('images/services/mining-and-logistics.jpeg') }}" alt="Mining & Logistics" class="w-full h-full object-cover">
                 </div>
                 <div class="relative z-10 mt-4 flex flex-col items-start flex-1">
                     <div class="w-16 h-16 bg-[#D4AF37] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -374,6 +374,8 @@
                     </a>
                 </div>
             </div>
+
+            
 
         </div>
     </div>

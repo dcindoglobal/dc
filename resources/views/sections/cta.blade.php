@@ -10,7 +10,7 @@
     </div>
     <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Begin your business today</h2>
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Start you business with us today</h2>
             <p class="text-xl text-gray-200 mb-8">
                 Let's build something extraordinary together. Contact us for a free consultation.
             </p>
