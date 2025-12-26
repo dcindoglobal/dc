@@ -109,12 +109,12 @@
                 <!-- ZONES WITH LINKS -->
                 <!-- Zone A (top-left): /products -->
                 <a href="/products" class="philo-zone philo-zone-top-left top-0 left-0"></a>
-                
-                <!-- Zone B (top-right): /products -->
-                <a href="/products" class="philo-zone philo-zone-top-right top-0 right-0"></a>
-                
-                <!-- Zone C (bottom-left): /services -->
-                <a href="/services" class="philo-zone philo-zone-bottom-left bottom-0 left-0"></a>
+
+                <!-- Zone B (top-right): /services -->
+                <a href="/services" class="philo-zone philo-zone-top-right top-0 right-0"></a>
+
+                <!-- Zone C (bottom-left): /resources -->
+                <a href="/resources" class="philo-zone philo-zone-bottom-left bottom-0 left-0"></a>
 
                 <!-- Zone D (bottom-right): /our-strength -->
                 <a href="/our-strength" class="philo-zone philo-zone-bottom-right bottom-0 right-0"></a>

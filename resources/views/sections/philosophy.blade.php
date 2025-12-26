@@ -169,7 +169,7 @@
                         <a href="/products" class="flex items-center group">
                             <div class="w-[130px] h-[130px] bg-[#d4af37] rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-lg border-8 border-[#dbb845] z-10 group-hover:scale-105 transition">A</div>
                             <div class="bg-[#d4af37] text-white w-[500px] ml-[-110px] py-5 pl-[120px] pr-[80px] rounded-l-full shadow-lg group-hover:bg-[#c9a632] transition">
-                                <h3 class="font-bold uppercase text-base">STRUCTURAL PRODUCTS</h3>
+                                <h3 class="font-bold uppercase text-base">Our Products</h3>
                                 <p class="text-[13px] leading-tight">
                                     Building Strong Foundations: Concrete, steel, and core materials designed to deliver strength, safety, and longevity in every build.
                                 </p>
@@ -181,7 +181,7 @@
                     <div class="absolute top-[180px] right-0 flex items-center justify-end slide slide-B">
                         <a href="/products" class="flex items-center group">
                             <div class="bg-[#25578f] text-white w-[500px] mr-[-110px] py-3 pr-[120px] pl-[80px] rounded-r-full shadow-lg text-right group-hover:bg-[#1e4675] transition">
-                                <h3 class="font-bold uppercase text-base">LIFESTYLE PRODUCTS</h3>
+                                <h3 class="font-bold uppercase text-base">Our Services</h3>
                                 <p class="text-[13px] leading-tight">
                                    Design Meets Functionality: From tiles and bath fittings to modular kitchens and electricals we blend beauty with performance for modern living.
                                 </p>
@@ -199,9 +199,9 @@
                                 C
                             </div>
                             <div class="bg-[#25578f] text-white w-[550px] ml-[-110px] py-4 pl-[120px] pr-[150px] rounded-l-full shadow-lg group-hover:bg-[#1e4675] transition">
-                                <h3 class="font-bold uppercase text-base">SERVICES</h3>
+                                <h3 class="font-bold uppercase text-base">Network & sustainability</h3>
                                 <p class="text-[13px] leading-tight">
-                                    End-to-End Solutions: From project planning and execution to post-construction support, we deliver comprehensive services tailored to your needs.
+                                    Discover our partners, client success stories, and opportunities to collaborate with DC Indo Global through trusted vendor partnerships and long-term industry relationships.
                                 </p>
                             </div>
                         </a>
@@ -213,7 +213,7 @@
                             <div class="bg-[#d4af37] text-white w-[520px] mr-[-110px] py-4 pr-[120px] pl-[80px] rounded-r-full shadow-lg text-right group-hover:bg-[#c9a632] transition">
                                 <h3 class="font-bold uppercase text-base">Our Strength</h3>
                                 <p class="text-[13px] leading-tight">
-                                    Nationwide Reach. Responsible Growth. Our expansive supply and manufacturing network spans across India, ensuring timely delivery and consistent quality wherever you build.
+                                   Our strength lies in quality-driven execution, trusted partnerships, skilled professionals, and a customer-first approach that delivers consistent results across every project.
                                 </p>
                             </div>
                             <div class="w-[130px] h-[130px] bg-[#d4af37] rounded-full flex items-center justify-center text-white text-3xl font-bold shadow-lg border-8 border-[#dbb845] group-hover:bg-[#c9a632] transition">
@@ -237,13 +237,15 @@
         zones.forEach(zone => {
             zone.addEventListener('click', function(e) {
                 const zoneClass = this.classList[1]; // Get 'top-left', 'top-right', etc.
-                let url = '/products'; // default for A and B
+                let url = '/products'; // default for A 
                 
                 // Determine URL based on zone
                 if (zoneClass === 'bottom-left') {
-                    url = '/services';
+                    url = '/resources'; // C connects to /resources
                 } else if (zoneClass === 'bottom-right') {
-                    url = '/our-strength'; // D connects to /resources
+                    url = '/our-strength'; // D connects to /our-strength
+                } else if (zoneClass === 'top-right') {
+                    url = '/services'; // B connects to /services
                 }
                 
                 // Navigate to the URL
