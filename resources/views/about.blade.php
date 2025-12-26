@@ -200,8 +200,8 @@
    
 
     <!-- Page Header -->
-    <section class="h-80 bg-cover bg-center flex items-center justify-center text-white"
-        style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920')">
+    <section class="h-[32rem] bg-cover bg-center flex items-center justify-center text-white"
+        style="background-image: url('{{ asset('images/about-header.jpeg') }}')">
         <div class="bg-black/60 w-full h-full flex items-center justify-center">
             <h1 id="page-title" class="text-5xl font-bold fade-in-up">About Us</h1>
         </div>
@@ -212,7 +212,7 @@
         <div class="container mx-auto px-4">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div class="fade-in-left">
-                    <img src="{{asset('images/about-us.jpeg') }}"
+                    <img src="{{asset('images/about.jpeg') }}"
                         alt="Construction" class="rounded-2xl shadow-2xl w-full floating-animation" />
                 </div>
                 <div class="fade-in-right">
