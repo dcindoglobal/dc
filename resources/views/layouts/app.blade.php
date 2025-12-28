@@ -12,6 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
+
     
     <!-- Section Specific CSS -->
     @yield('styles')

@@ -9,9 +9,10 @@
     <style>
         /* HOVER ZONES */
         .philo-zone {
+           
             position: absolute;
-            width: 50%;
-            height: 50%;
+            width: 30%;
+            height: 20%;
             z-index: 20;
             cursor: pointer;
         }
@@ -52,7 +53,7 @@
         }
 
         .philo-zone:hover ~ .center-container .zone-indicator {
-            opacity: 0.3;
+            opacity: 0;
         }
 
         .zone-indicator-top-left {
@@ -103,21 +104,21 @@
         </div>
 
         <!-- MAIN INTERACTION SECTION -->
-        <div class="philo-wrapper bg-white min-h-screen">
-            <div class="w-full h-[700px] relative flex items-center justify-center">
+        <div class="philo-wrapper bg-white mt-12">
+            <div class="w-full h-[400px] relative flex items-center justify-center">
 
                 <!-- ZONES WITH LINKS -->
                 <!-- Zone A (top-left): /products -->
-                <a href="/products" class="philo-zone philo-zone-top-left top-0 left-0"></a>
+                <a href="/products" class="philo-zone philo-zone-top-left top-12 left-16 rounded-full"></a>
 
                 <!-- Zone B (top-right): /services -->
-                <a href="/services" class="philo-zone philo-zone-top-right top-0 right-0"></a>
+                <a href="/services" class="philo-zone philo-zone-top-right top-24 right-2 rounded-full"></a>
 
                 <!-- Zone C (bottom-left): /resources -->
-                <a href="/resources" class="philo-zone philo-zone-bottom-left bottom-0 left-0"></a>
+                <a href="/resources" class="philo-zone philo-zone-bottom-left bottom-24 left-0 rounded-full"></a>
 
                 <!-- Zone D (bottom-right): /our-strength -->
-                <a href="/our-strength" class="philo-zone philo-zone-bottom-right bottom-0 right-0"></a>
+                <a href="/our-strength" class="philo-zone philo-zone-bottom-right bottom-12 right-24 rounded-full"></a>
 
                 <!-- CENTER IMAGE WITH VISUAL INDICATORS -->
                 <div class="center-container" style="margin-bottom: 0px; margin-top: 0px;">

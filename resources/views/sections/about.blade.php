@@ -7,10 +7,11 @@
         <div class="grid lg:grid-cols-2 gap-16 items-center">
             <div class="relative">
                 <img src="https://images.pexels.com/photos/443378/pexels-photo-443378.jpeg?w=800" alt="Construction" class="rounded-2xl shadow-2xl w-full floating-animation" />
-                <div class="absolute -bottom-6 -right-6 bg-[#D4AF37] text-white p-8 rounded-2xl shadow-xl">
-                    <p class="text-5xl font-bold">13+</p>
+               <div class="absolute -bottom-6 -right-2 md:-bottom-6 md:-right-6 bg-[#D4AF37] text-white p-4 md:p-8 rounded-lg md:rounded-2xl shadow-xl">
+                    <p class="text-xl md:text-5xl font-bold">13+</p>
                     <p class="font-semibold">Years</p>
                 </div>
+
             </div>
             <div>
                 <h2 class="text-sm font-bold text-[#D4AF37] mb-4 tracking-wider">WHO WE ARE</h2>
