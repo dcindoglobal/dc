@@ -9,7 +9,7 @@
     <style>
         /* HOVER ZONES */
         .philo-zone {
-           
+            opacity: 0;
             position: absolute;
             width: 30%;
             height: 20%;
@@ -53,6 +53,9 @@
         }
 
         .philo-zone:hover ~ .center-container .zone-indicator {
+            opacity: 0;
+        }
+        .philo-zone:active ~ .center-container .zone-indicator {
             opacity: 0;
         }
 
@@ -154,7 +157,7 @@
                 // Add visual feedback to corresponding indicator
                 const indicator = document.querySelector(`.zone-indicator-${zoneClass}`);
                 if (indicator) {
-                    indicator.style.opacity = '0.5';
+                    indicator.style.opacity = '0';
                 }
             });
             
@@ -166,7 +169,7 @@
                 // Reset visual feedback
                 const indicator = document.querySelector(`.zone-indicator-${zoneClass}`);
                 if (indicator) {
-                    indicator.style.opacity = '0.1';
+                    indicator.style.opacity = '0';
                 }
             });
         });
@@ -185,9 +188,9 @@
                     
                     const indicator = document.querySelector(`.zone-indicator-${zoneClass}`);
                     if (indicator) {
-                        indicator.style.opacity = '0.7';
+                        indicator.style.opacity = '0';
                         setTimeout(() => {
-                            indicator.style.opacity = '0.1';
+                            indicator.style.opacity = '0';
                         }, 300);
                     }
                     

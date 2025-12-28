@@ -58,6 +58,8 @@
                 transform: translateY(0);
             }
         }
+        
+       
 </style>
 
     <!-- Top Bar -->
@@ -87,8 +89,8 @@
                         <i class="fab fa-youtube"></i>
                     </a>
                     <span
-                        class="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
-                        style="z-index: 999;">
+                        class="social-text hidden md:block absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+                        style="z-index: 999; ">
                         YouTube
                     </span>
                 </div>
@@ -98,7 +100,7 @@
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                     <span
-                        class="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap z-99"
+                        class="social-text hidden md:blockabsolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap z-99"
                         style="z-index: 999;">
                         LinkedIn
                     </span>
@@ -109,7 +111,7 @@
                         <i class="fab fa-twitter"></i>
                     </a>
                     <span
-                        class="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+                        class="social-text hidden md:blockabsolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
                         style="z-index: 999;">
                         Twitter
                     </span>
@@ -120,7 +122,7 @@
                         <i class="fab fa-facebook-f"></i>
                     </a>
                     <span
-                        class="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+                        class="social-text hidden md:block absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
                         style="z-index: 999;">
                         Facebook
                     </span>
@@ -131,7 +133,7 @@
                         <i class="fab fa-instagram"></i>
                     </a>
                     <span
-                        class="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+                        class="social-text hidden md:block absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
                         style="z-index: 999;">
                         Instagram
                     </span>
