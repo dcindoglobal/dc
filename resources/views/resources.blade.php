@@ -527,7 +527,15 @@
         // Client data
        const clients = [
     { name: "Infosys", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/500px-Infosys_logo.svg.png?20100302211036", category: "commercial" },
+    { name: "Concor india", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9-PIjzjs_HrWnfskozsEbyYCTms7oBzIVbw&s?w=736", category: "industrial" },
+    { name: "Tata Group", logo: "https://www.hindterminals.com/adminAssets/img/siteSetting/1751544020_header.png", category: "industrial" },
+    { name: "Nhai", logo: "https://vajiramandravi.com/current-affairs/wp-content/uploads/2025/03/national_highways_authority_of_india_nhai.jpg.webp", category: "industrial" },
+    { name: "Dp world", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logotype_de_DP_World.png/1280px-Logotype_de_DP_World.png?20250213121652", category: "industrial" },
+    { name: "Krc infra projects pvt ltd", logo: "https://www.krcinfraprojects.com/_next/image?url=%2FKRC%20Logo.png&w=384&q=75", category: "industrial" },
+    { name: "Jpr balaji infra pvt ltd", logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEFwPsQ2jSGxg/company-logo_200_200/company-logo_200_200/0/1630624405655/jpr_balaji_pavers_private_limited_logo?e=2147483647&v=beta&t=QE4TC_aKvxUcBQgqxtTZjR4FKlxCA4mBxL02i6Nf8HY", category: "industrial" },
     { name: "Tata Group", logo: "https://zerocreativity0.wordpress.com/wp-content/uploads/2016/04/tata-group-classic-logos-of-india-zero-creativty.jpg?w=736", category: "industrial" },
+    //  { name: "Tata Group", logo: "https://zerocreativity0.wordpress.com/wp-content/uploads/2016/04/tata-group-classic-logos-of-india-zero-creativty.jpg?w=736", category: "industrial" },
+    //   { name: "Tata Group", logo: "https://zerocreativity0.wordpress.com/wp-content/uploads/2016/04/tata-group-classic-logos-of-india-zero-creativty.jpg?w=736", category: "industrial" },
     { name: "Reliance Industries", logo: "https://rilstaticasset.akamaized.net/sites/default/files/2023-02/S.1_2.jpg", category: "industrial" },
     { name: "Adani Group", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adani_2012_logo.png/1200px-Adani_2012_logo.png?20201105054634", category: "commercial" },
     { name: "Larsen & Toubro", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/L%26T.png?20141228172036", category: "industrial" },
