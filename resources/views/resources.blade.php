@@ -395,6 +395,44 @@
         </div>
     </section> --}}
 
+
+
+    <section id="recognition" class="py-12 bg-gray-50 text-center">
+  <h2 class="text-3xl font-bold mb-6">Recognition</h2>
+  <div class="flex justify-center items-center flex-wrap gap-8">
+      
+    <!-- Logo 1 -->
+    <div class="max-w-[180px]">
+      <img
+        src="https://asiaactual.com/wp-content/uploads/2023/05/gem-logo.webp"
+        alt="GEM Logo"
+        class="w-full object-contain"
+      />
+    </div>
+
+    <!-- Logo 2 -->
+    <div class="max-w-[180px]">
+      <img
+        src="https://solapureconsultingadvisory.com/wp-content/uploads/2023/12/startup-india-logo1-02-1024x265.png"
+        alt="Startup India Logo"
+        class="w-full object-contain"
+      />
+    </div>
+
+    <!-- Logo 3 -->
+    <div class="max-w-[180px]">
+      <img
+        src="https://media.licdn.com/dms/image/v2/C4D12AQGewAFqLJtLdA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1598020742292?e=2147483647&v=beta&t=Kgdz8kysK9iIDv04k6KnxGeAlHgZJqZABmpNw_TPGNw"
+        alt="Recognition Award Logo"
+        class="w-full object-contain"
+      />
+    </div>
+
+  </div>
+</section>
+
+    
+
     <!-- Clientele Showcase Section -->
     <section class="py-24">
         <div class="container mx-auto px-4">
@@ -423,6 +461,9 @@
             </div>
         </div>
     </section>
+
+
+    
 
     <!-- Vendor Registration Section -->
     <section class="py-20 bg-gradient-to-b from-gray-50 to-white">
