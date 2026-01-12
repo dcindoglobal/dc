@@ -87,8 +87,8 @@
                     <a href="tel:+919919910405" class="hover:text-white">
                         +91 99199 10405
                     </a><br>
-                    <a href="mailto:info@dcinological.com" class="hover:text-white">
-                        info@dcinological.com
+                    <a href="mailto:info@dcindoglobal.com" class="hover:text-white">
+                        info@dcindoglobal.com
                     </a>
                 </address>
             </div>
@@ -98,13 +98,9 @@
         <!-- Bottom Section -->
         <div class="pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center">
             <p class="text-gray-400 text-sm">
-                © 2024 DC Indo Global Pvt. Ltd. All rights reserved.
+                © 2026 DC Indo Global Pvt. Ltd. All rights reserved.
             </p>
-            {{-- <div class="flex space-x-4">
-                <a href="#" class="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
-                <a href="#" class="text-gray-400 hover:text-white text-sm">Terms of Service</a>
-                <a href="#" class="text-gray-400 hover:text-white text-sm">Sitemap</a>
-            </div> --}}
+           
         </div>
     </div>
 </footer>

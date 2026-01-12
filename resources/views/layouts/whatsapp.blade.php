@@ -7,7 +7,7 @@
 
 <style>
     body {
-        height: 2000px; /* just for demo scroll */
+        
         font-family: Arial, sans-serif;
     }
 
