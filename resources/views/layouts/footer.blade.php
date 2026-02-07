@@ -83,7 +83,7 @@
             <div>
                 <h4 class="text-lg font-bold mb-4">Contact Us</h4>
                 <address class="text-gray-300 not-italic">
-                 48, DLF MARKET, Sector 11D, Faridabad, Haryana-121006<br>
+                 48, First Floor, DLF Market, Sector 11D, Faridabad, Haryana-121006<br>
                     <a href="tel:+919919910405" class="hover:text-white">
                         +91 99199 10405
                     </a><br>

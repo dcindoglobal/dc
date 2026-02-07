@@ -204,7 +204,7 @@
                 dots: true,
                 autoplay: true,
                 autoplayTimeout: 4000,
-                autoplayHoverPause: false,
+                autoplayHoverPause: true,
                 responsive: {
                     0: {
                         items: 1,

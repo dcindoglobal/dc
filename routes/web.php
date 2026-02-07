@@ -28,3 +28,7 @@ Route::get('/service-page', function () {
 Route::get('/our-strength', function () {
     return view('pages.our-strength');
 })->name('strength.page');
+
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+})->name('admin.dashboard');

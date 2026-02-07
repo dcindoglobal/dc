@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Our Journey - Timeline</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f9fafb;
-    }
-  </style>
-</head>
-
-<body class="bg-gray-50 pt-[-50px]">
-
   <!-- OUR JOURNEY SECTION ONLY -->
   <section class="py-5 bg-gray-50">
     <div class="container mx-auto px-4">
@@ -58,6 +37,11 @@
         year: 2025,
         event: "In-House Manufacturing",
         description: "We launch our own manufacturing units for modular furniture."
+      },
+      {
+        year: 2026,
+        event: "Promoters' Achievement",
+        description: "Recognized for visionary leadership and contribution to the construction sector."
       }
     ];
 
@@ -122,6 +106,3 @@
 
     document.addEventListener("DOMContentLoaded", renderTimeline);
   </script>
-</body>
-
-</html>

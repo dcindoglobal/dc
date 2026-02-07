@@ -359,15 +359,34 @@
             <!-- Card 5 -->
             <div class="service-card flex flex-col p-6 rounded-xl overflow-hidden group border border-white/10 bg-gradient-to-br from-[#0A2540] to-[#1E3A5F] backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
                 <div class="image-container w-full h-48 overflow-hidden rounded-xl">
-                    <img src="{{ asset('images/services/mining-and-logistics.jpeg') }}" alt="Mining & Logistics" class="w-full h-full object-cover">
+                    <img src="https://images.pexels.com/photos/1267325/pexels-photo-1267325.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Mining & Crushing Service" class="w-full h-full object-cover">
                 </div>
                 <div class="relative z-10 mt-4 flex flex-col items-start flex-1">
                     <div class="w-16 h-16 bg-[#D4AF37] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                         <i class="fas fa-truck-moving text-white text-2xl"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-white mb-2">Mining & Logistic Services</h4>
+                    <h4 class="text-xl font-bold text-white mb-2">Mining & Crushing Service</h4>
                     <p class="text-gray-300 text-sm mb-4 flex-1">
-                        Integrated mining operations and logistics support tailored for large-scale industrial projects. We provide dependable solutions that streamline supply, movement, and material handling.
+                        Our stronghold allows us to provide good quality control of aggregate & sand with owned tech enabled fleet with real time tracking for timely delivery.
+                    </p>
+                    <a href="/contact" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
+                        Know More
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="service-card flex flex-col p-6 rounded-xl overflow-hidden group border border-white/10 bg-gradient-to-br from-[#0A2540] to-[#1E3A5F] backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
+                <div class="image-container w-full h-48 overflow-hidden rounded-xl">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" alt="Logistics & Warehousing" class="w-full h-full object-cover">
+                </div>
+                <div class="relative z-10 mt-4 flex flex-col items-start flex-1">
+                    <div class="w-16 h-16 bg-[#D4AF37] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-warehouse text-white text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Logistics & Warehousing</h4>
+                    <p class="text-gray-300 text-sm mb-4 flex-1">
+                        We handle movement, handling, and storing of steel, over-dimensional cargo, and containerized goods.
                     </p>
                     <a href="/contact" class="px-4 py-2 bg-[#D4AF37] text-[#0A2540] font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300">
                         Know More

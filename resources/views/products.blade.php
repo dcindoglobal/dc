@@ -294,7 +294,7 @@
             <button class="product-filter-btn px-6 py-2.5 border border-gray-300 rounded-full text-sm font-medium"
                 data-filter="green">Green Building Products</button>
             <button class="product-filter-btn px-6 py-2.5 border border-gray-300 rounded-full text-sm font-medium"
-                data-filter="tapes">Industrial Tapes</button>
+                data-filter="construction">Paver & Kerb Stone</button>
         </div>
 
         <!-- Product Cards -->
@@ -447,13 +447,26 @@
                 </div>
             </div>
 
-            <!-- Industrial Tapes -->
-            <div class="product-card-item fade-up-product" data-category="tapes">
-                <img src="https://images.pexels.com/photos/6169019/pexels-photo-6169019.jpeg?auto=compress&cs=tinysrgb&w=900"
-                    class="w-full h-56 object-cover" alt="Industrial Tapes">
+            <!-- Paver stone -->
+            <div class="product-card-item fade-up-product" data-category="construction">
+                <img src="https://images.pexels.com/photos/17366761/pexels-photo-17366761.jpeg?auto=compress&cs=tinysrgb&w=900"
+                    class="w-full h-56 object-cover" alt="Paver stone">
                 <div class="p-6">
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Industrial Tapes</h3>
-                    <p class="text-gray-600 mb-4">High-performance adhesive tapes built for demanding applications heat resistance, sealing, insulation, and more. Dependable solutions for industrial and electrical use.</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Paver stone</h3>
+                    <p class="text-gray-600 mb-4">Premium quality paver blocks designed for durability and aesthetic appeal. Ideal for driveways, pathways, and outdoor landscapes.</p>
+                    <a href="/contact"
+                        class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
+                        More</a>
+                </div>
+            </div>
+
+            <!-- Kerb stone -->
+            <div class="product-card-item fade-up-product" data-category="construction">
+                <img src="https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?auto=compress&cs=tinysrgb&w=900"
+                    class="w-full h-56 object-cover" alt="Kerb stone">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Kerb stone</h3>
+                    <p class="text-gray-600 mb-4">Heavy-duty kerb stones for road edges and pavement borders. Engineered for high impact resistance and long-lasting structural integrity.</p>
                     <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>
