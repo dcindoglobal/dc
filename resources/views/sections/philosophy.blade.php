@@ -83,13 +83,23 @@
         }
 
         /* Desktop – Normal scale */
-        @media (min-width: 1280px) {
+        @media (min-width: 1600px) {
             .philosophy-wrapper { transform: scale(1); }
         }
 
-        /* Tablets */
-        @media (max-width: 1279px) and (min-width: 768px) {
-            .philosophy-wrapper { transform: scale(0.85); }
+        /* Laptop / Small Desktop */
+        @media (max-width: 1599px) and (min-width: 1450px) {
+            .philosophy-wrapper { transform: scale(1); }
+        }
+
+        /* Smaller Laptop */
+        @media (max-width: 1449px) and (min-width: 1300px) {
+            .philosophy-wrapper { transform: scale(0.75); }
+        }
+
+        /* Tablets / Small Laptops */
+        @media (max-width: 1299px) and (min-width: 768px) {
+            .philosophy-wrapper { transform: scale(0.7); }
         }
 
         /* Large Mobile */

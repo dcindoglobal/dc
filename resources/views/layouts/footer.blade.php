@@ -13,7 +13,45 @@
 
                 <!-- Social Media -->
                 <div class="flex gap-3 mt-4">
-                    @foreach(['facebook', 'twitter', 'linkedin', 'instagram'] as $social)
+                    {{-- LinkedIn --}}
+                    <div class="relative group">
+                        <a href="https://www.linkedin.com/company/dc-indo-global/?viewAsMember=true"
+                            class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#D4AF37] transition-colors">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                        <span
+                            class="absolute left-1/2 -translate-x-1/2 -bottom-9 bg-[#D4AF37] text-white text-xs font-semibold rounded-md px-2 py-1 opacity-0 group-hover:opacity-100 transition-all">
+                            LinkedIn
+                        </span>
+                    </div>
+
+                    {{-- Instagram --}}
+                    <div class="relative group">
+                        <a href="https://www.instagram.com/dcindoglobal"
+                            class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#D4AF37] transition-colors">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <span
+                            class="absolute left-1/2 -translate-x-1/2 -bottom-9 bg-[#D4AF37] text-white text-xs font-semibold rounded-md px-2 py-1 opacity-0 group-hover:opacity-100 transition-all">
+                            Instagram
+                        </span>
+                    </div>
+
+                    {{-- YouTube --}}
+                    <div class="relative group">
+                        <a href="https://www.youtube.com/@DCINDOGLOBAL"
+                            class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#D4AF37] transition-colors">
+                            <i class="fab fa-youtube text-white"></i>
+                        </a>
+                        <span
+                            class="absolute left-1/2 -translate-x-1/2 -bottom-9 bg-[#D4AF37] text-white text-xs font-semibold rounded-md px-2 py-1 opacity-0 group-hover:opacity-100 transition-all">
+                            YouTube
+                        </span>
+                    </div>
+
+                    {{-- Commented out others --}}
+                    {{-- 
+                    @foreach(['facebook', 'twitter'] as $social)
                     <div class="relative group">
                         <a href="#"
                             class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#D4AF37] transition-colors">
@@ -25,6 +63,7 @@
                         </span>
                     </div>
                     @endforeach
+                    --}}
                 </div>
             </div>
 
@@ -47,7 +86,7 @@
                         'Structural Materials',
                         'Modular Furnishings',
                         'Green Building Products',
-                        'Industrial Tapes'
+                        'Paver & Kerb Stone'
                     ] as $product)
                     <li>
                         <a href="{{ url('/products') }}"

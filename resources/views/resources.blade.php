@@ -345,15 +345,15 @@
     </section>
 
     <!-- Additional Resources Section -->
-    {{-- <section class="py-20">
+     <section class="py-20">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-sm font-bold text-[#D4AF37] mb-4 tracking-wider">ADDITIONAL RESOURCES</h2>
                 <h3 class="text-4xl md:text-5xl font-bold text-[#0A2540]">Helpful Documents & Links</h3>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="card p-6 text-center hover:shadow-xl transition-all duration-300">
+            <div class=" grid md:grid-cols-2 gap-8 px-4 md:px-24 ">
+                <div class="card  p-6 text-center hover:shadow-xl transition-all duration-300">
                     <div class="inline-flex items-center justify-center w-16 h-16 bg-[#0A2540] rounded-full mb-4">
                         <i data-lucide="file-text" class="w-8 h-8 text-white"></i>
                     </div>
@@ -366,7 +366,7 @@
                     </a>
                 </div>
 
-                <div class="card p-6 text-center hover:shadow-xl transition-all duration-300">
+                <!-- <div class="card p-6 text-center hover:shadow-xl transition-all duration-300">
                     <div class="inline-flex items-center justify-center w-16 h-16 bg-[#0A2540] rounded-full mb-4">
                         <i data-lucide="clipboard-list" class="w-8 h-8 text-white"></i>
                     </div>
@@ -377,9 +377,9 @@
                         <span>View Portfolio</span>
                         <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
                     </a>
-                </div>
+                </div> -->
 
-                <div class="card p-6 text-center hover:shadow-xl transition-all duration-300">
+                <div class="card  p-6 text-center hover:shadow-xl transition-all duration-300">
                     <div class="inline-flex items-center justify-center w-16 h-16 bg-[#0A2540] rounded-full mb-4">
                         <i data-lucide="phone-call" class="w-8 h-8 text-white"></i>
                     </div>
@@ -393,7 +393,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section> 
 
 
 

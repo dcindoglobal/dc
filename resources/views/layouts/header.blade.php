@@ -85,7 +85,7 @@
             <div class="flex items-center space-x-4 mt-2 sm:mt-0">
                 <!-- YouTube -->
                 <div class="relative group">
-                    <a href="#" class="hover:text-[#D4AF37] transition-colors">
+                    <a href="https://www.youtube.com/@DCINDOGLOBAL" class="hover:text-[#D4AF37] transition-colors">
                         <i class="fab fa-youtube"></i>
                     </a>
                     <span
@@ -96,7 +96,7 @@
                 </div>
                 <!-- LinkedIn -->
                 <div class="relative group">
-                    <a href="#" class="hover:text-[#D4AF37] transition-colors">
+                    <a href="https://www.linkedin.com/company/dc-indo-global/?viewAsMember=true" class="hover:text-[#D4AF37] transition-colors">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                     <span
@@ -105,31 +105,9 @@
                         LinkedIn
                     </span>
                 </div>
-                <!-- Twitter -->
-                <div class="relative group">
-                    <a href="#" class="hover:text-[#D4AF37] transition-colors">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <span
-                        class="social-text hidden md:blockabsolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
-                        style="z-index: 999;">
-                        Twitter
-                    </span>
-                </div>
-                <!-- Facebook -->
-                <div class="relative group">
-                    <a href="#" class="hover:text-[#D4AF37] transition-colors">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <span
-                        class="social-text hidden md:block absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
-                        style="z-index: 999;">
-                        Facebook
-                    </span>
-                </div>
                 <!-- Instagram -->
                 <div class="relative group">
-                    <a href="#" class="hover:text-[#D4AF37] transition-colors">
+                    <a href="https://www.instagram.com/dcindoglobal" class="hover:text-[#D4AF37] transition-colors">
                         <i class="fab fa-instagram"></i>
                     </a>
                     <span
@@ -138,6 +116,28 @@
                         Instagram
                     </span>
                 </div>
+                <!-- Twitter -->
+                <!-- <div class="relative group">
+                    <a href="#" class="hover:text-[#D4AF37] transition-colors">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <span
+                        class="social-text hidden md:blockabsolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+                        style="z-index: 999;">
+                        Twitter
+                    </span>
+                </div> -->
+                <!-- Facebook -->
+                <!-- <div class="relative group">
+                    <a href="#" class="hover:text-[#D4AF37] transition-colors">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <span
+                        class="social-text hidden md:block absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+                        style="z-index: 999;">
+                        Facebook
+                    </span>
+                </div> -->
             </div>
         </div>
     </div>

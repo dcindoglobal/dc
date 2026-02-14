@@ -398,13 +398,15 @@
                                     Arun Sharma is the Head of Sustainability at DC Indo Global with over 15 years of experience in green building design and implementation. He has led numerous award-winning sustainable construction projects across India and serves on several national committees for environmental building standards.
                                 </p>
                                 <div class="flex space-x-4">
-                                    <a href="#" class="text-[#0A2540] hover:text-[#D4AF37] transition-colors">
+                                    <a href="https://www.linkedin.com/company/dc-indo-global/?viewAsMember=true" class="text-[#0A2540] hover:text-[#D4AF37] transition-colors">
                                         <i data-lucide="linkedin" class="w-5 h-5"></i>
                                     </a>
+                                    {{-- 
                                     <a href="#" class="text-[#0A2540] hover:text-[#D4AF37] transition-colors">
                                         <i data-lucide="twitter" class="w-5 h-5"></i>
                                     </a>
-                                    <a href="#" class="text-[#0A2540] hover:text-[#D4AF37] transition-colors">
+                                    --}}
+                                    <a href="mailto:info@dcindoglobal.com" class="text-[#0A2540] hover:text-[#D4AF37] transition-colors">
                                         <i data-lucide="mail" class="w-5 h-5"></i>
                                     </a>
                                 </div>
@@ -417,12 +419,14 @@
                         <div class="flex flex-col sm:flex-row items-center justify-between">
                             <h3 class="text-lg font-bold text-[#0A2540] mb-4 sm:mb-0">Share this article</h3>
                             <div class="flex space-x-3">
+                                {{-- 
                                 <a href="#" class="share-btn bg-[#3b5998] text-white">
                                     <i data-lucide="facebook" class="w-4 h-4"></i>
                                 </a>
                                 <a href="#" class="share-btn bg-[#1da1f2] text-white">
                                     <i data-lucide="twitter" class="w-4 h-4"></i>
                                 </a>
+                                --}}
                                 <a href="#" class="share-btn bg-[#0077b5] text-white">
                                     <i data-lucide="linkedin" class="w-4 h-4"></i>
                                 </a>
