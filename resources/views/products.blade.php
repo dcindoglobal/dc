@@ -399,7 +399,7 @@
             </div>
 
             <div class="product-card-item fade-up-product" data-category="modular">
-                <img src="https://veneto.co.in/wp-content/uploads/2024/12/download-25.webp"
+                <img src="https://images.pexels.com/photos/7512030/pexels-photo-7512030.jpeg"
                     class="w-full h-56 object-cover" alt="Wardrobes">
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Wardrobes</h3>
@@ -462,11 +462,24 @@
 
             <!-- Kerb stone -->
             <div class="product-card-item fade-up-product" data-category="construction">
-                <img src="https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?auto=compress&cs=tinysrgb&w=900"
+                <img src="{{ asset('images/kerb-stone.jpeg') }}"
                     class="w-full h-56 object-cover" alt="Kerb stone">
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-800 mb-3">Kerb stone</h3>
                     <p class="text-gray-600 mb-4">Heavy-duty kerb stones for road edges and pavement borders. Engineered for high impact resistance and long-lasting structural integrity.</p>
+                    <a href="/contact"
+                        class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
+                        More</a>
+                </div>
+            </div>
+
+            <!-- Mining and Crushing -->
+            <div class="product-card-item fade-up-product" data-category="construction">
+                <img src="{{ asset('images/minjng-and-crushing.jpeg') }}"
+                    class="w-full h-56 object-cover" alt="Mining and Crushing">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Mining and Crushing</h3>
+                    <p class="text-gray-600 mb-4">Advanced mining and crushing solutions designed for efficiency and durability in rugged environments.</p>
                     <a href="/contact"
                         class="inline-block bg-[#bfa44e] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#a8923e]">Learn
                         More</a>

@@ -37,11 +37,6 @@
         year: 2025,
         event: "In-House Manufacturing",
         description: "We launch our own manufacturing units for modular furniture."
-      },
-      {
-        year: 2026,
-        event: "Promoters' Achievement",
-        description: "Recognized for visionary leadership and contribution to the construction sector."
       }
     ];
 
